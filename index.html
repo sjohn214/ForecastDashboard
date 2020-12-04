@@ -15,22 +15,36 @@
     <div class="container">
         <div class="row">
             <aside class="col-lg-3">
-                <h5>Search for a city</h5>
-                <div class="form-inline form-group">
-                    <input type="text" class="form-control" id="search-value">
-                    <button class="btn btn-primary" id="search-btn">Search</button>
-                </div>
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h5>Search for a city</h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- <div class="form-inline form-group"> -->
+                        <input type="text" class="form-control" id="search-value">
+                        <button class="btn btn-primary" id="search-btn">Search</button>
+                        <!-- </div> -->
+                    </div>
             </aside>
             <div class="col-lg-9">
-                <div id="today"></div>
-                <div id="forecast"></div>
+                <div class="card text-center" id="today"></div>
+                <div class="card" id="forecast" style="width: 18rem;"></div>
+
+                <div class="container-weekly">
+                    <div class="row-weekly">
+                        <aside class="col-lg-3">
+                            <div class="card-body-weekly" id="weeklyForecast">
+                            </div>
+                        </aside>
+                        <div class="col-lg-9">
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="script.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+            <script src="script.js"></script>
 </body>
 
 </html>
