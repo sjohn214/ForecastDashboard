@@ -9,7 +9,7 @@ To create a city search forecast application that searches for any location's we
 * The following image and gif shows the web application's appearance and functionality:
 ![Forecast Dashboard Screenshot](photodashboard.png)
 
-![Forecast Dashboard gif](ForecastDash.gif)
+![Forecast Dashboard gif](ForecastDashboard.gif)
 
 # Live URL:
 <a href="https://sjohn214.github.io/ForecastDashboard/">Forecast Dashboard URL Live</a>
